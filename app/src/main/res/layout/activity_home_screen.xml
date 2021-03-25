@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeScreen"
+    android:background="@drawable/background2"
+    >
+
+    <Button
+        android:id="@+id/registerGreenhouseBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/Transparent80"
+        android:text="Register a Greenhouse"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:onClick="registerGreenhouse_"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/searchGreenhouseBtn"
+        android:onClick="searchGreenhouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerGreenhouseBtn"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/Transparent80"
+        android:text="Search a Greenhouse"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/updateGreenhouseBtn"
+        android:onClick="updateGreenhouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchGreenhouseBtn"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/Transparent80"
+        android:text="Update Greenhouse Record"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/deleteGreenhouseBtn"
+        android:onClick="deleteGreenhouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/updateGreenhouseBtn"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/Transparent80"
+        android:text="Delete a Greenhouse"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+
+
+        android:textStyle="bold|italic" />
+</RelativeLayout>
